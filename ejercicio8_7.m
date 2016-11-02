@@ -1,6 +1,7 @@
 close all
 clc
 clear all
+disp('ejercicio 8.7')
 A=input('capital=')
 k=input('numero de años=')
 r=input('rata anual=')

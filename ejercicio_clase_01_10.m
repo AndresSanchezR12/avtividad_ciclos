@@ -14,3 +14,13 @@ for i=1:length(x)
     end
     new=[new,yn]
 end
+figure
+plot(new),grid on
+xlabel('# personas')
+ylabel('altura')
+title('h__mujeres/hombres')
+figure
+bar(new)
+xlabel('# personas')
+ylabel('altura')
+title('h__mujeres/hombres')
